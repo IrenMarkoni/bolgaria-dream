@@ -1,0 +1,222 @@
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 5em;
+    letter-spacing: 0.2em;
+    margin-top: 70px;
+  }
+  .first-screen-text {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+  }
+  .arrow {
+    margin-bottom: 50px;
+  }
+  .benefits-paragraph {
+    font-size: 1.3em;
+    line-height: 1.1em;
+    padding: 0 1.5em;
+  }
+  .index {
+    left: 20%;
+  }
+  .contacts-form h2 {
+    padding: 30px 10px 20px 10px;
+  }
+  .contacts-wrapper {
+    padding: 0 50px;
+  }
+  nav {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .number {
+    font-size: 0.8em;
+    line-height: 1em;
+  }
+  .benefits-paragraph {
+    font-size: 1.4em;
+    padding: 0 1em;
+  }
+  .services-cards {
+    padding-top: 20px;
+    top: -15%;
+    margin-bottom: 5px;
+  }
+  h5 {
+    font-size: 1.2em;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  .services-text {
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.1em;
+    padding: 0 20px 20px 20px;
+  }
+  .card-2 {
+    padding-top: 35px;
+  }
+  .images-wrapper {
+    display: none;
+  }
+  .submit {
+    font-size: 0.7em;
+  }
+  .contacts-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contacts-list {
+    padding-top: 0;
+  }
+  .new-house {
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  .clients {
+    padding-left: 0;
+  }
+  footer .number {
+    font-size: 0.8em;
+    font-weight: 900;
+  }
+  .footer-text {
+    font-size: 0.7em;
+    margin: 0 30px 0 0;
+  }
+  footer .contacts {
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .fas:not(.user-destination .fas, .phone-icon .fas) {
+    display: none;
+  }
+  .blue-text {
+    font-size: 2.3em;
+    line-height: 0.9em;
+  }
+  .house-in-bolgaria {
+    padding: 0;
+  }
+  .buy-text {
+    margin: 15px 0;
+  }
+  .ready {
+    margin-top: 60px;
+  }
+  .parners-card {
+    width: 100%;
+    margin: 0;
+  }
+  .partners-wrapper {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .benefits,
+  .moving,
+  .services,
+  .feedbacks,
+  .consulting {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 85px;
+    letter-spacing: normal;
+  }
+  .footer-text {
+    font-size: 0.7em;
+  }
+  .contacts-screen h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .arrow {
+    display: none;
+  }
+  .contacts-wrapper {
+    padding: 0 20px;
+  }
+
+  .wrapper-heading {
+    font-size: 1.133em;
+    font-weight: 100;
+    padding: 30px 15px;
+  }
+  .user-photo {
+    display: none;
+  }
+  .user-feedback {
+    padding: 10px 10px;
+  }
+  .user-name {
+    font-size: 0.6em;
+  }
+  .user-link {
+    font-size: 0.5em;
+  }
+  .user-destination {
+    font-size: 0.7em;
+  }
+  .card-2::before {
+    display: none;
+  }
+  .number {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  .arrow {
+    margin-bottom: 0;
+  }
+
+  .first-screen-text {
+    font-size: 1.6em;
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 1.7em;
+    line-height: 0.9em;
+  }
+  h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .user-info {
+    display: block;
+  }
+
+  .contacts-form .form-block {
+    padding: 0 5px;
+  }
+  .contacts-wrapper {
+    padding: 0 0;
+  }
+  .benefits-paragraph {
+    font-size: 1.2em;
+  }
+  .blue-text {
+    font-size: 2.2em;
+  }
+  .buy-text {
+    text-align: center;
+  }
+  .number {
+    font-size: 0.6em;
+  }
+}
